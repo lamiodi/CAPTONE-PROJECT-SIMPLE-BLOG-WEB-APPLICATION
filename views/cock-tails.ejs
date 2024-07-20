@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cocktails</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link href="styles/index.css" rel="stylesheet">
+</head>
+<body>
+    
+  <div class="container">
+    <header class="lh-1 py-3">
+      <div class="row flex-nowrap justify-content-between align-items-center">
+        <div class="col-12 text-center">
+          <a class="blog-header-logo text-decoration-none text-nowrap fs-3" id="color3" href="#"><img class="logo" src="images/Picsart_24-06-13_13-00-51-339.png">The Beverage Blog</a>
+        </div>
+      </div>
+    </header>
+  
+    <div class="nav-scroller mb-3 border-bottom border-top" style="padding: 0em 3.5em;">
+      <nav class="nav nav-underline justify-content-between">
+        <a class="nav-item nav-link link-body-emphasis" id="head"  href="/">Hot Drinks</a>
+        <a class="nav-item nav-link link-body-emphasis" id="head" href="/cold-drinks">Cold Drinks</a>
+        <a class="nav-item nav-link link-body-emphasis" id="head" href="/mocktails"> Mocktails</a>
+        <a class="nav-item nav-link link-body-emphasis active"id="color1" href="/cock-tails"> Cocktails</a>
+        <a class="nav-item nav-link link-body-emphasis" id="head" href="/juice-smoothies">Juices & Smoothies</a>
+      </nav>
+    </div>
+  </div>
+  
+  <main class="container">
+    <div class="mb-4 rounded text-body-emphasis bg-body-secondary">
+      
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/Margarita1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Margarita</h5>
+              <p>A refreshing classic with a tangy twist.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/mezcal-mojito-recipe.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Mojito</h5>
+              <p>A cool, minty delight perfect for summer.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/cosmopolitan1.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Cosmopolitan</h5>
+              <p>A sophisticated cocktail with a fruity flair.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  
+    <div class="row mb-2 justify-content-center">
+      <div class="col-md-6">
+        
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2" id="color1">Cocktails</strong>
+            <h3 class="mb-0">Margarita</h3>
+            <div class="mb-1 text-body-secondary" id="color2">July 16</div>
+            <p class="mb-auto">A classic cocktail made with tequila, lime juice, and triple sec, perfect for any occasion.</p>
+            <a href="#" class="icon-link gap-1 icon-link-hover stretched-link text-decoration-none" id="color1">
+              Read More
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#0069D9" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
+              </svg>
+            </a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img src="images/margarita.jpeg" id="card-image" style="height: 100%; width: 13em; object-fit: cover;">
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-success-emphasis" id="color1">Cocktails</strong>
+            <h3 class="mb-0">Mojito</h3>
+            <div class="mb-1 text-body-secondary" id="color2">July 16</div>
+            <p class="mb-auto">A refreshing cocktail made with white rum, sugar, lime juice, soda water, and mint.</p>
+            <a href="#" class="icon-link gap-1 icon-link-hover stretched-link text-decoration-none" id="color1">
+              Read More
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#0069D9" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
+              </svg>
+            </a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img src="images/mezcal-mojito-recipe.png" id="card-image" style="height: 100%; width: 13em; object-fit: cover;">
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-success-emphasis" id="color1">Cocktails</strong>
+            <h3 class="mb-0">Cosmopolitan</h3>
+            <div class="mb-1 text-body-secondary" id="color2">July 16</div>
+            <p class="mb-auto">A chic cocktail made with vodka, triple sec, cranberry juice, and freshly squeezed lime juice.</p>
+            <a href="#" class="icon-link gap-1 icon-link-hover stretched-link text-decoration-none" id="color1">
+              Read More
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#0069D9" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
+              </svg>
+            </a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img src="images/cosmopolitan.jpeg" id="card-image" style="height: 100%; width: 13em; object-fit: cover;">
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-success-emphasis" id="color1">Cocktails</strong>
+            <h3 class="mb-0">Pina Colada</h3>
+            <div class="mb-1 text-body-secondary" id="color2">July 16</div>
+            <p class="mb-auto">A tropical cocktail made with rum, coconut cream, and pineapple juice, served blended or shaken with ice.</p>
+            <a href="#" class="icon-link gap-1 icon-link-hover stretched-link text-decoration-none" id="color1">
+              Read More
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#0069D9" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
+              </svg>
+            </a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img src="images/pina_colada.jpeg" id="card-image" style="height: 100%; width: 13em; object-fit: cover;">
+          </div>
+        </div>
+      </div>
+    </div>
+    <h3 class="pb-3 mb-3 fst-italic border-bottom text-center"  id="color1">
+        Discover Delicious Hot Drink Recipes
+      </h3> 
+        <div class="mt-4">
+          <p class="text-md-start text-center">Dive into our extensive collection of recipes that cover a wide range of drinks. Whether you're looking to perfect your barista skills with our coffee recipes, experiment with new flavors in your cocktails, or create soothing teas and health-boosting smoothies, we've got you covered. Our step-by-step guides ensure that you can easily recreate these beverages at home.</p>
+          
+         </div>
+  
+        <div class="container mt-5">
+          <div class="row row-gap-4 ">
+              <div class="col-md-7 mx-auto d-flex flex-column align-items-center justify-content-start ">
+                  <h4 class="fst-italic pb-4 text-center "  id="color1">Create, Share, and Discover: User-Generated Recipes</h4>
+  
+                  <!-- Add Recipe Button -->
+                  <button type="button" class="btn btn-warning mb-4" data-bs-toggle="modal" data-bs-target="#addRecipeModal">
+                    Add Your Cocktail Recipe
+                </button>
+  
+                <!-- Recipes Display -->
+<div class="card mb-3 justify-self-center" style="max-width: 100%; background-color: #0B3954; color: #FFD23F;">
+    <div class="row no-gutters">
+        <div class="col-lg-6 position-relative">
+            <img src="images/classic_margarita.jpeg" class="img-fluid rounded-start" alt="Classic Margarita" style="max-width: 100%; height: 100%; object-fit: cover;">
+            <div class="card-img-overlay d-flex flex-column justify-content-end p-3">
+                <h5 class="card-title">Classic Margarita</h5>
+                <p class="card-text"><strong>Recipe by: Emily</strong></p>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="card-body">
+                <p class="card-text">
+                    <strong>Ingredients:</strong>
+                    <ul>
+                        <li>1 1/2 oz tequila</li>
+                        <li>1 oz lime juice</li>
+                        <li>1/2 oz triple sec</li>
+                        <li>Salt for rimming the glass</li>
+                        <li>Ice cubes</li>
+                        <li>Lime wedge for garnish</li>
+                    </ul>
+                    <strong>
+                        <a class="btn mt-3" style="background-color: #FFD23F; color: #0B3954;" data-toggle="collapse" href="#instructions" role="button" aria-expanded="false" aria-controls="instructions">
+                            View Instructions
+                        </a>
+                    </strong>
+                    <div class="collapse" id="instructions">
+                        <ol class="mt-3">
+                            <li>Rim the glass with salt by rubbing a lime wedge around the rim and dipping it in salt.</li>
+                            <li>Combine tequila, lime juice, and triple sec in a shaker with ice.</li>
+                            <li>Shake well and strain into the prepared glass filled with ice.</li>
+                            <li>Garnish with a lime wedge. Serve chilled.</li>
+                        </ol>
+                    </div>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+  
+                <div id="posts">
+                  <% posts.forEach((post) => { %>
+                      <div class="card mb-3 justify-self-center" style="max-width: 100%; background-color: #0B3954; color: #FFD23F;">
+                          <div class="row no-gutters ">
+                              <div class="col-lg-6 position-relative">
+                                  <img src="<%= post.photo %>" class="img-fluid rounded-start" alt="<%= post.title %>" style="max-width: 100%; height: 100%; object-fit: cover;">
+                                  <div class="card-img-overlay d-flex flex-column justify-content-end p-3">
+                                      <h5 class="card-title"><%= post.title %></h5>
+                                      <p class="card-text"><strong>Recipe by: <%= post.username %></strong></p>
+                                  </div>
+                              </div>
+                              <div class="col-lg-6">
+                                  <div class="card-body">
+                                      <p class="card-text">
+                                          <strong>Ingredients:</strong>
+                                          <ul>
+                                              <% if (post.ingredient) { %>
+                                                  <% post.ingredient.split(',').forEach((ingredient) => { %>
+                                                      <li><%= ingredient %></li>
+                                                  <% }) %>
+                                              <% } else { %>
+                                                  <li>No ingredients listed</li>
+                                              <% } %>
+                                          </ul>
+                                          <strong>
+                                              <a class="btn mt-3" style="background-color: #FFD23F; color: #0B3954;" data-toggle="collapse" href="#instructions-<%= post.id %>" role="button" aria-expanded="false" aria-controls="instructions-<%= post.id %>">
+                                                  View Instructions
+                                              </a>
+                                          </strong>
+                                          <div class="collapse" id="instructions-<%= post.id %>">
+                                              <ol class="mt-3">
+                                                  <% if (post.instruction) { %>
+                                                      <% post.instruction.split(',').forEach((instruction) => { %>
+                                                          <li><%= instruction %></li>
+                                                      <% }) %>
+                                                  <% } else { %>
+                                                      <li>No instructions provided</li>
+                                                  <% } %>
+                                              </ol>
+                                          </div>
+                                      </p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  <% }) %>
+              </div>
+            
+  
+  
+              </div>
+  
+              <!-- Add Recipe Modal -->
+              <div class="modal fade" id="addRecipeModal" tabindex="-1" aria-labelledby="addRecipeModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content" style="background-color: #0B3954; color: #FFD23F;">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="addRecipeModalLabel">Share Your Cocktail drinks Recipe</h5>
+                            <button type="button" class="btn-close" style="background-color: #FFD23F;" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <form id="uploadForm" enctype="multipart/form-data" action="/submit-form" method="POST">
+                            <input type="hidden" name="redirectTo" value="<%= currentPage %>">
+                            
+                            <div class="form-group mb-3">
+                              <label class="pb-2" for="recipeTitle">Recipe Title</label>
+                              <input type="text" class="form-control" id="recipeTitle" name="title" required>
+                            </div>
+                            
+                            <div class="form-group mb-3">
+                              <label class="pb-2" for="User">Recipe By</label>
+                              <input type="text" class="form-control" id="User" name="Username" required>
+                            </div>
+                            
+                            <div class="form-group mb-3">
+                              <label class="pb-2" for="recipeDescription">Recipe Ingredients</label>
+                              <textarea class="form-control" id="recipeDescription" name="ingredient" rows="3" placeholder="e.g., 2 cups of milk, 1 tbsp sugar, 1 tsp vanilla extract" required></textarea>
+                              <small class="form-text text-muted">Separate ingredients with commas.</small>
+                            </div>
+                            
+                            <div class="form-group mb-3">
+                              <label class="pb-2" for="recipeInstruction">Recipe Instructions</label>
+                              <textarea class="form-control" id="recipeInstruction" name="instruction" rows="3" placeholder="e.g., Heat the milk, Add sugar, Stir until dissolved" required></textarea>
+                              <small class="form-text text-muted">Separate instructions with commas.</small>
+                            </div>
+                            
+                            <div class="form-group mb-3">
+                              <label class="pb-2" for="fileInput">Upload Photo</label>
+                              <input type="file" class="form-control" id="fileInput" name="photo" accept="image/*" required>
+                            </div>
+                            
+                            <div class="form-group mb-3">
+                              <label class="pb-2" for="categorySelect">Type of Drink</label>
+                              <select class="form-control" id="categorySelect" name="category" required>
+                                <option value="hotdrinks">Hot Drinks</option>
+                                <option value="cold-drinks">Cold Drinks</option>
+                                <option value="cocktails">Cocktails</option>
+                                <option value="mocktails">Mocktails</option>
+                                <option value="juice-smoothies">Juice & Smoothies</option>
+                              </select>
+                            </div>
+                            
+                            <button type="submit" class="btn" style="background-color: #FFD23F; color: #0B3954;">Upload Blog Post</button>
+                            
+                            <div id="status"></div>
+                          </form>
+                          
+                        </div>
+                    </div>
+                </div>
+            </div>
+  
+  
+  
+            
+              <div class="col-md-5 mx-auto">
+      <div class="position-sticky" style="top: 2rem;">
+          <div class="p-4 mb-3 rounded" style="background-color: #0B3954" id="color1">
+              <h4 class="fst-italic text-center">About Us</h4>
+              <p class="mb-0">Welcome to Beverage Blog, a vibrant community of drink enthusiasts who share their knowledge, recipes, reviews, and stories. Whether you love coffee, tea, cocktails, or exploring new flavors, we've got you covered. Join us for a flavorful adventure that quenches your thirst for knowledge and taste.</p>
+              <div class="mt-4">
+                  <h2 class="mb-4 text-center fs-4">Learn from the Experts</h2>
+                  <p class="text-md-start text-center">Our team of beverage enthusiasts and experts share their insights on everything drink-related. Learn about the origins of your favorite drinks, the best brewing techniques, and the latest trends in the beverage world. We also offer tips and tricks to help you become a better home bartender or barista.</p>
+              </div>
+              <div class="mt-4">
+                  <h2 class="mb-4 text-center fs-4">Engage with the Community</h2>
+                  <p class="text-md-start text-center">At Beverage Blog, we believe in the power of community. Connect with fellow drink enthusiasts through our forums, comment on posts, and share your own experiences and recipes. Whether you're a beginner or a seasoned connoisseur, there's always something new to learn and share.</p>
+              </div>
+              <div class="mt-4">
+                  <h2 class="mb-4 text-center fs-4">Discover New Flavors</h2>
+                  <p class="text-md-start text-center">Explore our extensive library of recipes and reviews to discover new drinks and flavors. From classic cocktails to innovative concoctions, there's something for everyone. Dive into our guides to find the perfect drink for any occasion, and surprise your friends and family with your newfound expertise.</p>
+              </div>
+              <div class="mt-4">
+                  <h2 class="mb-4 text-center fs-4">Stay Updated</h2>
+                  <p class="text-md-start text-center">Stay up-to-date with the latest trends in the beverage industry. Our blog features regular updates on new products, emerging trends, and industry news. Sign up for our newsletter to get the latest content delivered straight to your inbox.</p>
+              </div>
+          </div>
+      </div>
+  </div>
+  
+            
+        </div>
+      </div>
+      
+    
+    </main>
+  
+  
+    <section class="container py-5">
+    <div class="text-center mb-5">
+        <h2 class="display-5"  id="color1">Featured Video</h2>
+        <p class="lead">Watch our latest video tutorial and learn how to make the perfect beverage.</p>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-lg-8">
+            <div class="ratio ratio-16x9">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/b0IuTL3Z-kk?si=NtvTNBIgKstuRjWN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                
+            </div>
+        </div>
+    </div>
+  </section>
+  
+    <section class="container-fluid py-5 " style="background-image: url(images/Picsart_24-05-31_08-01-27-779.png); background-repeat: no-repeat;
+    background-size: cover;">
+      <div class="text-center mb-5">
+          <h2 class="display-5">What Our Readers Say</h2>
+          <p class="lead">Hear from our community about their experiences with our recipes and guides.</p>
+      </div>
+      <div class="row   ">
+          <div class="col-md-4 mb-4  d-flex justify-content-center">
+              <div class="card h-100 shadow-sm ">
+                  <div class="card-body">
+                      <p class="card-text">"Beverage Blog has transformed my mornings! The coffee recipes are so easy to follow and absolutely delicious." - <strong>Sarah K.</strong></p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4 mb-4  d-flex justify-content-center">
+              <div class="card h-100 shadow-sm">
+                  <div class="card-body">
+                      <p class="card-text">"I love the variety of drinks featured here. There's always something new to try, and the detailed guides are fantastic!" - <strong>James L.</strong></p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4 mb-4  d-flex justify-content-center">
+              <div class="card h-100 shadow-sm">
+                  <div class="card-body">
+                      <p class="card-text">"The chai latte recipe is my favorite. It's become a staple in my daily routine thanks to Beverage Blog." - <strong>Emily R.</strong></p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+    
+    <%- include("partials/footer.ejs") %>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+  </html>
+  
