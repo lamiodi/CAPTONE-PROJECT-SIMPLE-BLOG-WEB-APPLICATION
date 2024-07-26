@@ -169,7 +169,7 @@
                   <h4 class="fst-italic pb-4 text-center "  id="color1">Create, Share, and Discover: User-Generated Recipes</h4>
   
                   <!-- Add Recipe Button -->
-                  <button type="button" class="btn btn-warning mb-4" data-bs-toggle="modal" data-bs-target="#addRecipeModal">
+                  <button type="button" class="btn btn-warning mb-4" id="color2" data-bs-toggle="modal" data-bs-target="#addRecipeModal">
                     Add Your Mocktail Drinks Recipe
                 </button>
   
@@ -177,17 +177,17 @@
 <div class="card mb-3 justify-self-center" style="max-width: 100%; background-color: #0B3954; color: #FFD23F;">
     <div class="row no-gutters">
         <div class="col-lg-6 position-relative">
-            <img src="images/mojito.jpeg" class="img-fluid rounded-start" alt="Virgin Mojito" style="max-width: 100%; height: 100%; object-fit: cover;">
+            <img src="images/mojito.jpeg" class="rounded-top" alt="Virgin Mojito" id="images">
             <div class="card-img-overlay d-flex flex-column justify-content-end p-3">
                 <h5 class="card-title">Virgin Mojito</h5>
                 <p class="card-text"><strong>Recipe by: Emily</strong></p>
             </div>
         </div>
         <div class="col-lg-6">
-            <div class="card-body">
+            <div class="card-body pt-lg-3 pb-lg-1">
                 <p class="card-text">
                     <strong>Ingredients:</strong>
-                    <ul>
+                    <ul mb-lg-2>
                         <li>10 fresh mint leaves</li>
                         <li>1/2 lime, cut into 4 wedges</li>
                         <li>2 tablespoons white sugar</li>
@@ -223,17 +223,17 @@
                       <div class="card mb-3 justify-self-center" style="max-width: 100%; background-color: #0B3954; color: #FFD23F;">
                           <div class="row no-gutters ">
                               <div class="col-lg-6 position-relative">
-                                  <img src="<%= post.photo %>" class="img-fluid rounded-start" alt="<%= post.title %>" style="max-width: 100%; height: 100%; object-fit: cover;">
+                                  <img src="<%= post.photo %>" class="rounded-top" id="images" alt="<%= post.title %>">
                                   <div class="card-img-overlay d-flex flex-column justify-content-end p-3">
                                       <h5 class="card-title"><%= post.title %></h5>
                                       <p class="card-text"><strong>Recipe by: <%= post.username %></strong></p>
                                   </div>
                               </div>
                               <div class="col-lg-6">
-                                  <div class="card-body">
+                                  <div class="card-body pt-lg-3 pb-lg-1">
                                       <p class="card-text">
                                           <strong>Ingredients:</strong>
-                                          <ul>
+                                          <ul class="mb-lg-2">
                                               <% if (post.ingredient) { %>
                                                   <% post.ingredient.split(',').forEach((ingredient) => { %>
                                                       <li><%= ingredient %></li>
@@ -248,7 +248,7 @@
                                               </a>
                                           </strong>
                                           <div class="collapse" id="instructions-<%= post.id %>">
-                                              <ol class="mt-3">
+                                              <ol class="mt-3 mb-0">
                                                   <% if (post.instruction) { %>
                                                       <% post.instruction.split(',').forEach((instruction) => { %>
                                                           <li><%= instruction %></li>
@@ -289,7 +289,7 @@
                             
                             <div class="form-group mb-3">
                               <label class="pb-2" for="User">Recipe By</label>
-                              <input type="text" class="form-control" id="User" name="Username" required>
+                              <input type="text" class="form-control" id="User" name="username" required>
                             </div>
                             
                             <div class="form-group mb-3">
@@ -384,7 +384,7 @@
     <section class="container-fluid py-5 " style="background-image: url(images/Picsart_24-05-31_08-01-27-779.png); background-repeat: no-repeat;
     background-size: cover;">
       <div class="text-center mb-5">
-          <h2 class="display-5">What Our Readers Say</h2>
+          <h2 id="color1" class="display-5">What Our Readers Say</h2>
           <p class="lead">Hear from our community about their experiences with our recipes and guides.</p>
       </div>
       <div class="row   ">

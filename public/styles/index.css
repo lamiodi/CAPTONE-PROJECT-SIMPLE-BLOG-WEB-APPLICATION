@@ -244,3 +244,20 @@ border: 1px solid rgba(24, 14, 8, 0.01);
   margin-bottom: 0.5rem;
 }
 
+/* Default styles for larger screens */
+#images {
+  width: 100%;
+  height: 100%;
+  display: block;
+  max-width: 100%; /* Ensures image doesn't exceed container width */
+}
+
+/* Media query for screens with a maximum width of 991px */
+@media (max-width: 991px) {
+  #images {
+    aspect-ratio: 1/1; /* Maintain a specific aspect ratio */
+    object-fit: cover;  /* Ensures the image covers the container without stretching */
+    max-width: 100%;    /* Ensures the image doesn't exceed the container width */
+  }
+}
+
